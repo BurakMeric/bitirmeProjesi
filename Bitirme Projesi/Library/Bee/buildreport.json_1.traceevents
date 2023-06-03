@@ -1,0 +1,516 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685752168396851, "dur": 2462516, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752168397130, "dur": 6502, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752168403638, "dur": 32253, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752168435892, "dur": 822336, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752169258230, "dur": 1587339, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752170845571, "dur": 13795, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752170860049, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685752169078153, "dur": 158066, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169079112, "dur": 45490, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169217633, "dur": 4284, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169221923, "dur": 14273, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169222885, "dur": 12468, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169241402, "dur": 2023, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685752169240234, "dur": 3229, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752170860168, "dur": 203, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685752169298457, "dur":915, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752169299376, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685752169299438, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685752169299452, "dur":201, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685752169299674, "dur":529, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752169300203, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833176, "dur":162, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833338, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833347, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833350, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833358, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833359, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833364, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833365, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833369, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833370, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833374, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833375, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833393, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833394, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833398, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833399, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833403, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833435, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170833458, "dur":1343, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685752169299941, "dur":321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169300263, "dur":4188, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169304462, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685752169304550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169305603, "dur":459, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685752169306072, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685752169306130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169306308, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685752169308959, "dur":12138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685752169321101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169321108, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685752169322118, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685752169322215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752169322222, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685752169324893, "dur":857987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170182885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752170182894, "dur":40521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170223465, "dur":168534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170392012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752170392025, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170393356, "dur":436895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170830256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685752170830265, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685752170833153, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685752170833157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169300515, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169300515, "dur":3938, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169304462, "dur":74906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1685752169379372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169385312, "dur":5886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1685752169391245, "dur":55827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169447084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169447094, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169448385, "dur":132320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169580715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169580749, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169582085, "dur":52710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169634799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169634807, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169636253, "dur":53814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169690071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169690080, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169693996, "dur":15999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169710001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169710012, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169711700, "dur":25625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169737332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169737342, "dur":8205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169745595, "dur":19157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169764758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169764768, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169766615, "dur":29674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169796295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169796305, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169797833, "dur":19711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169817550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169817561, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169819067, "dur":53272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169872345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169872356, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169873549, "dur":16939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169890493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169890504, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169892016, "dur":53478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169945499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752169945508, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752169946704, "dur":77887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170024597, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170024611, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170025939, "dur":305237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170331181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170331191, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170333914, "dur":141295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170475215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170475224, "dur":29938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685752170505280, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685752170505324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170505369, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1685752170506441, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685752170506500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170506506, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685752170507556, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685752170507608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170507614, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685752170509988, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685752170510037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170510045, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685752170511691, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685752170511742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170511749, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685752170512945, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685752170512994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685752170513011, "dur":90033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685752170603111, "dur":230060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169300186, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169300301, "dur":4153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169304462, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685752169304645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169315222, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685752169316408, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685752169316558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169316566, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685752169318032, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685752169318159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169318221, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685752169320709, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685752169321031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169321041, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685752169323842, "dur":60156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169384004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169386421, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169390933, "dur":42977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169433938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169433948, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169435317, "dur":38285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169473609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169473621, "dur":21514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169495190, "dur":22588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169517785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169517795, "dur":9310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169527159, "dur":24644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169551809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169551819, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169553681, "dur":167825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169721512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169721522, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169723175, "dur":57633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169780814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752169780826, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752169782145, "dur":222494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170004645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752170004655, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170006264, "dur":110233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170116503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752170116514, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170117751, "dur":176461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170294217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752170294228, "dur":8923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170303199, "dur":144946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170448151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752170448161, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170450232, "dur":292784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170743020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685752170743028, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685752170744153, "dur":89032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169300060, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169300297, "dur":4158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169304462, "dur":42343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685752169346812, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169346847, "dur":11965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685752169358874, "dur":18161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169377063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169377585, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169379068, "dur":38517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169417591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169418385, "dur":7393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169425833, "dur":49334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169475170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169475179, "dur":23928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169499163, "dur":19254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169518421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169518430, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169519638, "dur":114074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169633718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169633728, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169635171, "dur":22651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169657828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169657838, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169662169, "dur":41259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169703433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169703443, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169711946, "dur":15996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169727948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169727987, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169729323, "dur":36607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169765936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169765945, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169766958, "dur":21446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169788410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169788427, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169789564, "dur":17935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169807506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169807548, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169808615, "dur":35483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169844101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169844108, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169846198, "dur":19651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169865855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169865866, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169867010, "dur":57573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169924589, "dur":144, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169924847, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169926246, "dur":53729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169979981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752169979991, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752169981565, "dur":207998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170189569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752170189579, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170190893, "dur":96088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170286985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752170286993, "dur":12865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170299911, "dur":152890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170452807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752170452822, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170457181, "dur":132189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170589376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685752170589391, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685752170590866, "dur":242316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169300297, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169300298, "dur":4158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169304510, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685752169304676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169315584, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685752169316642, "dur":10178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685752169326823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169326835, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685752169328078, "dur":52003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi.exe" }}
+,{ "pid":12345, "tid":5, "ts":1685752169380085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169380091, "dur":8945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi.exe" }}
+,{ "pid":12345, "tid":5, "ts":1685752169389087, "dur":50708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169439802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169439812, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169441338, "dur":34260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169475623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169475631, "dur":29794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169505480, "dur":27860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169533346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169533356, "dur":5459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169538865, "dur":52536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169591406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169591417, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169592475, "dur":58787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169651309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169651318, "dur":11329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169662692, "dur":34106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169696804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169696814, "dur":5044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169701910, "dur":38288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169740204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169740215, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169744271, "dur":70601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169814878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169814888, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169816136, "dur":31374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169847516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169847528, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169855333, "dur":32040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169887377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752169887385, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752169890899, "dur":182796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170073701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170073711, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170074843, "dur":132601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170207450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170207460, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170208885, "dur":53654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170262545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170262555, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170263697, "dur":247357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170511058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170511067, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685752170513920, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685752170513976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170514006, "dur":3929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685752170517990, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1685752170518044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170518053, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1685752170521901, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170521965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170521977, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170525739, "dur":910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1685752170526654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170526663, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1685752170527822, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170527894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170527901, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170529574, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170529627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170529638, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170531260, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170531316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170531325, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170532996, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170533056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170533065, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1685752170534427, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685752170534483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170534491, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685752170535973, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1685752170536127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685752170536135, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1685752170537798, "dur":295376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169300423, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169300423, "dur":4059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169304482, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685752169304638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169314645, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685752169316419, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685752169316556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169317332, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685752169321738, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1685752169321851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169321862, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1685752169324167, "dur":243282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169567455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169567556, "dur":5676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169573288, "dur":252252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169825546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169825555, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169826721, "dur":17208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169843936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752169843970, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752169845700, "dur":157726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170003431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170003441, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170005176, "dur":281356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170286538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170286548, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170288029, "dur":230379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170518411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170518420, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685752170522588, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685752170522666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170522675, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685752170525726, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1685752170525921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170525932, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1685752170528466, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1685752170528548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170528559, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1685752170530054, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1685752170530100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170530108, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1685752170531600, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1685752170531660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170531665, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1685752170533527, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1685752170533666, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170533678, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1685752170535435, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1685752170535501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685752170535743, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1685752170537598, "dur":295574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169300536, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169300536, "dur":3945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169304482, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685752169304638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169306613, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685752169309124, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685752169309275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169309775, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1685752169310934, "dur":13627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685752169324564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169324573, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685752169326888, "dur":145483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685752169472376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169472385, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1685752169475191, "dur":28098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169503302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169503312, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169505917, "dur":68029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169573950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169573960, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169575081, "dur":17264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169592349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169592357, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169593472, "dur":123372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169716851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169716865, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169718214, "dur":57647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169775868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169775878, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169777764, "dur":40588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169818356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169818364, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169820144, "dur":27810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169847958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169847966, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169849144, "dur":17729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169866877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169866885, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169868485, "dur":52315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169920806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169920817, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169921949, "dur":22790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169944746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752169944757, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752169946184, "dur":94406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170040596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752170040606, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170041943, "dur":80356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170122305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752170122346, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170123458, "dur":113945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170237409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752170237419, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170238594, "dur":44654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170283254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752170283281, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170284660, "dur":282075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170566742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685752170566755, "dur":7340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685752170574149, "dur":259024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169300597, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169300597, "dur":3880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169304478, "dur":12013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685752169316553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169316570, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685752169318188, "dur":17533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685752169335727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169335739, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685752169337137, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685752169337264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169337944, "dur":7212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1685752169345233, "dur":120905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169466144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169466154, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169468533, "dur":25298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169493837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169493847, "dur":21338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169515236, "dur":22281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169537523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169537533, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169539057, "dur":54409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169593471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169593480, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169595118, "dur":59137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169654261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169654270, "dur":13822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169668147, "dur":21317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169689471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169689482, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169690683, "dur":19366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169710053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169710060, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169711786, "dur":20639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169732432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169732442, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169733496, "dur":55880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169789427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169789437, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169792383, "dur":15933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169808321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169808329, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169809286, "dur":77557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169886848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169886864, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169890871, "dur":43379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169934256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752169934265, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752169938229, "dur":150089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170088324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752170088334, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170089818, "dur":197839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170287662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752170287671, "dur":11916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170299644, "dur":69076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170368726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752170368737, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170370067, "dur":99113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170469186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752170469195, "dur":6950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170476189, "dur":142062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170618257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685752170618273, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/atadi/Desktop/Burak Meric Bitirme Projesi/Bitirme Projesi_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685752170619610, "dur":213568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685752170836016, "dur":2372, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685752170860449, "dur": 910, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685752170860035, "dur": 1365, "ph": "X", "name": "Write chrome-trace events", "args": {} },
